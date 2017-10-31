@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000"
+    tools:context="com.example.akila.tourguide.MainActivity">
+
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Princeton, New Jersey"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:padding="5dp"/>
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/restaurants"
+        style="@style/CategoryStyle"
+        android:background="@color/category_color"
+        android:text="@string/category_restaurants"/>
+
+    <TextView
+        android:id="@+id/hotel"
+        style="@style/CategoryStyle"
+        android:background="@color/category_color"
+        android:text="@string/category_hotels"/>
+
+    <TextView
+        android:id="@+id/shopping"
+        style="@style/CategoryStyle"
+        android:background="@color/category_color"
+        android:text="@string/category_shopping"/>
+
+    <TextView
+        android:id="@+id/landmark"
+        style="@style/CategoryStyle"
+        android:background="@color/category_color"
+        android:text="@string/category_landmarks"/>
+</LinearLayout>

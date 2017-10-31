@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">TourGuide</string>
+    <string name="category_restaurants">Restaurants</string>
+    <string name="category_shopping">Shopping</string>
+    <string name="category_hotels">Hotels</string>
+    <string name="category_landmarks">Landmarks</string>
+
+    <string name="thebentspoon">The Bent Spoon</string>
+    <string name="restadd1">35 Palmer Square West</string>
+    <string name="Agri">Agricola</string>
+    <string name="RestAdd2">11 Witherspoon Street</string>
+    <string name="Yank">Yankee Doodle Tap Room</string>
+    <string name="RestAdd3">10 Palmer Square</string>
+    <string name="Alchemist">Alchemist and Barrister</string>
+    <string name="RestAdd4">28 Witherspoon Street</string>
+    <string name="BluePoint">Blue Point Grill</string>
+    <string name="RestAdd5">258 Nassau Street</string>
+
+    <string name="University">Princeton University</string>
+    <string name="LandAdd1">Nassau Street</string>
+    <string name="Drumthwacket">Drumthwacket</string>
+    <string name="LandAdd2">206 Stockton Street</string>
+    <string name="PBSP">Princeton Battlefield Park</string>
+    <string name="LandAdd3">500 Mercer Road</string>
+    <string name="QMH">Quaker Meeting House</string>
+    <string name="LandAdd4">470 Quaker Road</string>
+
+    <string name="N">Nassau Inn</string>
+    <string name="Hotel1">10 Palmer Square</string>
+    <string name="P">The Peacock Inn</string>
+    <string name="Hotel2">20 Bayard Lane</string>
+    <string name="M">Mariott Inn</string>
+    <string name="Hotel3">100 College Road East</string>
+    <string name="W">The Westin Princeton</string>
+    <string name="Hotel4">201 Village Boulevard</string>
+
+    <string name="Palm">Palmer Square</string>
+    <string name="Shop1">40 Nassau Street</string>
+    <string name="AlexaAni">Alex and Ani</string>
+    <string name="Shop2">46 Hullfish Street</string>
+    <string name="Labyrinth">Labyrinth Books</string>
+    <string name="Shop3">122 Nassau Street</string>
+    <string name="MF">Market Fair</string>
+    <string name="Shop4">3535 US Highway One</string>
+</resources>

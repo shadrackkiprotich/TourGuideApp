@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.akila.tourguide">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Restaurant"
+            android:label="@string/category_restaurants"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Hotels"
+            android:label="@string/category_hotels"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Landmarks"
+            android:label="@string/category_landmarks"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Shopping"
+            android:label="@string/category_shopping"
+            android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>
